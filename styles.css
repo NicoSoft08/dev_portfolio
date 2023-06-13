@@ -77,7 +77,8 @@ nav ul li {
     font-weight: var(--bold-font);
 }
 
-.burger_menu {
+.burger_menu, 
+.closer_menu {
     color: var(--primary-color);
     font-size: 2rem;
     border: 0;
@@ -96,8 +97,8 @@ nav ul li {
 }
 
 .hero img {
-    height: 37.5rem;
-    width: 37.5rem;
+    height: 35rem;
+    width: 35rem;
 }
   
 .bio {
@@ -188,7 +189,8 @@ nav ul li {
     padding: 1rem;
 }
 
-.project-container p {
+.project-container p, 
+.project-container a {
     padding: 0.4rem;
 }
   
@@ -285,7 +287,7 @@ nav ul li {
     .socicon:hover {
         scale: 1.05;
     }
-
+    
 .scroll-up {
     position: fixed;
     right: 0.5%;
@@ -294,8 +296,8 @@ nav ul li {
 }
   
 .up-arrow {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 footer {
@@ -331,6 +333,10 @@ footer {
     .burger_menu {
         display: block;
     }
+
+    .closer_menu {
+        display: none;
+    }
     
     nav ul.show {
         transform: translateX(0);
@@ -343,8 +349,8 @@ footer {
     }
     
     .hero img {
-            height: 37.5rem;
-            width: 30rem;
+        height: 37.5rem;
+        width: 30rem;
     }
     
     .bio {
