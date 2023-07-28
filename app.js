@@ -21,22 +21,22 @@ const navLink = document.querySelectorAll(".nav_link");
 burger.addEventListener("click", () => {
     burger.style.display = 'none';
     closer.style.display = 'block';
-    ul.classList.add("show");
+    ul.classList.add("show");    
 });
 
 // Closing
 closer.addEventListener("click", () => {
     burger.style.display = 'block';
     closer.style.display = 'none';
-    ul.classList.remove("show");
-});
+    ul.classList.remove("show");    
+})
 
 // Close hamburger menu when a link is clicked
 
 navLink.forEach((link) =>
   link.addEventListener("click", () => {
     closer.style.display = 'none';
-    burger.style.display = 'block';
+    // burger.style.display = 'none';
     ul.classList.remove("show");
   })
 );
