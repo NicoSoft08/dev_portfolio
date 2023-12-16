@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="./src/favicon.png">
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nicolas | Developer Portfolio</title>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <div class="container">
+            <div class="logo" title="NicoSoft">
+                <a href="#"><img src="./src/icon.png" alt="icon" class="icon"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="burger_menu" id="burger_menu" title="Open Menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+            <button class="closer_menu" id="closer_menu" title="Close Menu">
+                <ion-icon class="close" name="close-outline"></ion-icon>
+            </button>
+        </div>
+        <div class="navbar">
+            <li><a href="#about" class="nav_link">About</a></li>
+            <li><a href="#skills" class="nav_link">Skills</a></li>
+            <li><a href="#projects" class="nav_link">Projects</a></li>
+            <li><a href="#contact" class="nav_link">Contact</a></li>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="hero">
+        <img src="./src/hero/hero-two.png" alt="coding-svg" class="hero-img" loading="lazy">
+        <div class="bio animate__animated animate_shakeX">
+            <h2 class="bio_title">About Me</h2>
+            <p class="bio_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, rem? Perferendis harum, molestias atque autem labore est, qui aut asperiores, accusamus sed dolorum incidunt consequuntur. Iure, soluta reprehenderit temporibus, deserunt necessitatibus omnis iste ipsa saepe cum ea ab totam tenetur.</p>
+        </div>
+    </section>
+
+    <!-- MORE ABOUT SECTION -->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A maxime recusandae qui eveniet dolores, consequatur aliquid architecto aliquam nisi alias, illum cupiditate maiores! Quasi perspiciatis maiores vero, suscipit id sint quisquam doloribus doloremque a eligendi delectus dignissimos ut totam, neque culpa aliquam repudiandae at nemo accusantium ipsa sequi iure obcaecati.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque autem sint, nesciunt fugit libero placeat explicabo error quidem asperiores deleniti optio facere temporibus atque sed expedita impedit, possimus accusantium laudantium aliquam reprehenderit ipsam. Natus quidem eos rem incidunt temporibus voluptas et quis. Harum impedit maxime, tempore sapiente eum facilis earum eaque dolor beatae nostrum, ut eos? Officiis magni sed reiciendis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis beatae laboriosam nemo tenetur aliquam, fugiat nam quo placeat sapiente quaerat consequatur accusantium unde natus magni laudantium ducimus saepe dolores earum amet doloribus mollitia provident alias! Vel illo a cumque praesentium unde? Repellendus ab quisquam totam eaque cupiditate corporis voluptatem qui, mollitia hic expedita voluptas a exercitationem iure commodi accusamus delectus voluptatum facilis voluptatibus maiores! Aliquam unde voluptatum alias minus ratione.</p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <h2 class="skill-header">Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img title="HTML5" src="./src/devs/html.png" alt="html" class="icon icon-card">
+                <img title="CSS3" src="./src/devs/css.png" alt="css" class="icon icon-card">
+                <img title="JavaScript" src="./src/devs/js.png" alt="javascript" class="icon icon-card">
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img title="React" src="./src/devs/react.png" alt="react" class="icon icon-card">
+                <img title="PHP" src="./src/devs/php.png" alt="php" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <h2 class="project-title">Some of my recent projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <h3 class="project-title">Mobile App - Calculator</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus soluta quas eaque! Ab, tempora in id incidunt dolorum eum?</p>
+                <a href="#check-projects/webapp" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <h3 class="project-title">Web App - Stopwatcher</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus soluta quas eaque! Ab, tempora in id incidunt dolorum eum?</p>
+                <a href="#check-projects/webapp" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <h3 class="project-title">Web App - Music Player</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus soluta quas eaque! Ab, tempora in id incidunt dolorum eum?</p>
+                <a href="#check-projects/webapp" target="_blank" class="project-link">Check it Out</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="" method="post" name="form" onsubmit="return validateForm()">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required/>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field" required/>
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn"/>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOCIAL ACCOUNTS -->
+    <div class="socials">
+        <a href="#" target="_blank">
+            <img src="./src/social_media/face.png" alt="facebook" loading="lazy" class="socicon">
+        </a>
+        <a href="#" target="_blank">
+            <img src="./src/social_media/insta.png" alt="instagram" loading="lazy" class="socicon">
+        </a>
+        <a href="#" target="_blank">
+            <img src="./src/social_media/telegram.png" alt="telegram" loading="lazy" class="socicon">
+        </a>
+        <a href="#" target="_blank">
+            <img src="./src/social_media/github.png" alt="github" loading="lazy" class="socicon">
+        </a>
+    </div>
+
+    <!-- Scroll to Top -->
+    <i class="scroll-up" id="scroll-up" title="Scroll up">
+        <img src="./src/arrow-up.png" class="socicon up-arrow" alt="scroll-up">
+    </i>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <img src="./src/favicon.png" alt="favicon" title="NicoSoft" style="width: 100px; height: 50px;" >
+        <p class="copy">&copy; Copyright 2023 Peniel Nicolas. All rights reserved.</p>
+        <p class="copy">Build with &#x1F496; by <a href="#" target="_blank">NicoSoft</a></p>
+    </footer>
+
+    <!-- JS Custom -->
+    <script src="./js/custom.js"></script>
+    <!-- Ion Icons Scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
